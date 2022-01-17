@@ -1,0 +1,193 @@
+/****************Top Section***************/
+
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(223, 47%, 23%);
+}
+
+a:hover {
+    color: rgb(147,112,255)
+}
+
+/*********Main Section*********/
+
+.main-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 400px;
+    margin: 80px auto;
+    /* margin: 7% auto; */
+    border-radius: 5%;
+}
+
+.main-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 15px 45px;
+    background: hsl(0, 0%, 98%);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.middle-section {
+    /* padding: 0% 14%; */
+    /* width: 75%; */
+    margin: auto;
+    align-items: center;
+}
+
+.pricing {
+    font-size: 1rem;
+}
+
+.icon {
+    padding-right: 0px;
+    max-width: 15%;
+}
+
+.options {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.items {
+    /* padding: 0% 3%; */
+    padding: 0px 10px;
+}
+
+.plan {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.pricing {
+    font-size: 0.9rem;
+    display: inline-block;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+
+/* .price-section .icon{
+    padding-right: 0px;
+} */
+
+.middle-section .options {
+    padding-left: 50px;
+}
+
+.description {
+    font-size: 0.9rem;
+    width: 75%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.options {
+    color: hsl(245, 75%, 52%);
+}
+
+.options:hover {
+    text-decoration: none;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    margin: 10px auto;
+    padding: 0px 80px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+}
+
+.btn h3 {
+    color: white;
+}
+
+.btn:hover {
+    background-color:  	rgb(147,112,255)
+}
+
+.button-section a {
+    text-decoration: none;
+}
+
+.cancel-section {
+    font-size: 0.9rem;
+    padding: 15px 0px 40px 0px;
+}
+
+.cancel-order {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+@media (max-width: 450px) {
+    body {
+        background-image: url(../images/pattern-background-mobile.svg);
+    }
+
+    .main-section {
+        /* margin-bottom: 0px; */
+        width: auto;
+        max-width: 325px;
+    }
+
+    .title {
+        font-size: 1.3rem;
+    }
+    
+    .price-section {
+        margin: 15px 25px;
+        padding: 5px;
+    }
+
+    .btn {
+        padding: 0px 60px;
+    }
+}
